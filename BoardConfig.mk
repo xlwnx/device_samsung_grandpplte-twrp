@@ -9,7 +9,7 @@ DEVICE_PATH := device/samsung/grandpplte
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-TARGET_USE_LZMA := true
+BOARD_RAMDISK_USE_XZ := true
 
 # Architecture
 TARGET_ARCH := arm
